@@ -11,6 +11,6 @@ attr_accessor :emails
  end
 
   def parse
-  emails.split(/ ,/)
+  emails.split(/ , | /)
   end
 end
